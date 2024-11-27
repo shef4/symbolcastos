@@ -1,9 +1,17 @@
 # Symbol Cast OS
 
-**Symbol Cast OS** is an open-source, cross-platform operating system designed to empower users of all ages and abilities. Initially supporting phones, laptops/tablets, and VR headsets, it provides an immersive virtual world experience where users interact through intuitive gestures and symbols known as **Symbol Cast**. The OS integrates third-party AI agents to enhance collaboration and productivity, making technology accessible and beneficial for everyone, including the elderly and differently-abled.
+**Symbol Cast OS** is an open-source, cross-platform operating system designed to empower users of all ages and abilities. It offers two user modes:
+
+- **Minimal Mode**: A clean and simple interface for users who prefer minimal distractions.
+- **Informative Mode**: An interface that displays all instructional information upfront, catering to users who prefer detailed guidance, aligning with Japanese cultural preferences.
+
+Initially supporting phones, laptops/tablets, and VR headsets, the OS provides an immersive virtual world experience where users interact through intuitive gestures and symbols known as **Symbol Cast**. It integrates third-party AI agents to enhance collaboration and productivity, making technology accessible and beneficial for everyone, including the elderly and differently-abled.
 
 ## Features
 
+- **Dual User Modes**:
+  - **Minimal Mode**: Streamlined interface focusing on simplicity.
+  - **Informative Mode**: Detailed instructions and guidance displayed upfront.
 - **Cross-Platform Support**: Optimized for phones, laptops/tablets, and VR headsets.
 - **Accessibility Focus**: Designed with features that cater to users of all ages and abilities.
 - **Symbol Cast Language**: A gesture-based programming language allowing users to draw symbols to perform actions and create programs.
@@ -14,10 +22,10 @@
 
 ## Folder Structure
 
-- `docs/`: Design, architecture, language specifications, accessibility guidelines, and AI integration details.
-- `examples/`: Example Symbol Cast programs, AI collaboration demos, and accessibility feature showcases.
-- `src/`: Source code for UI, core logic, language interpreter, AI integration, and platform-specific optimizations.
-- `tests/`: Unit and integration tests for all modules, including accessibility and AI features.
+- `docs/`: Design, architecture, language specifications, accessibility guidelines, AI integration details, and user modes.
+- `examples/`: Example Symbol Cast programs, AI collaboration demos, accessibility feature showcases, and user mode demonstrations.
+- `src/`: Source code for UI (including user modes), core logic, language interpreter, AI integration, and platform-specific optimizations.
+- `tests/`: Unit and integration tests for all modules, including accessibility and user modes.
 - `tools/`: Helper scripts for symbol drawing and hardware optimization.
 - `models/`: Machine learning models and training datasets for symbol recognition and AI agent integration.
 
@@ -29,8 +37,10 @@
   - Implement gesture-based activation and symbol drawing canvas.
   - Develop basic symbol recognition using hash-based storage.
   - Set up the memory stack for symbol management.
+- **User Modes**:
+  - Implement the basic framework for Minimal and Informative modes.
 - **Accessibility Considerations**:
-  - Begin incorporating accessibility features (e.g., adjustable text sizes, high-contrast modes).
+  - Begin incorporating accessibility features.
 - **Hardware Support**:
   - Ensure the OS can run on older hardware with minimal resources.
 
@@ -42,6 +52,8 @@
   - Expand the Symbol Cast language to include loops, conditionals, and custom functions.
 - **AI Agent Integration**:
   - Begin integrating third-party AI agents for collaboration and assistance.
+- **User Modes Enhancement**:
+  - Refine Minimal and Informative modes based on user feedback.
 - **Accessibility Enhancements**:
   - Implement voice commands and screen reader support.
 - **Platform Support**:
@@ -54,7 +66,7 @@
 - **AI Collaboration**:
   - Enhance AI agent capabilities for productivity and creativity tools.
 - **User Testing**:
-  - Conduct extensive testing with users of varying ages and abilities.
+  - Conduct extensive testing with diverse users, focusing on user modes and accessibility.
 - **Performance Optimization**:
   - Optimize the OS to run efficiently on older and rudimentary hardware.
 
@@ -63,7 +75,7 @@
 - **Feature Completion**:
   - Finalize all features and ensure cross-platform compatibility.
 - **Documentation and Tutorials**:
-  - Complete comprehensive documentation, including accessibility guidelines and tutorials.
+  - Complete comprehensive documentation, including user modes, accessibility guidelines, and tutorials.
 - **Security and Privacy**:
   - Implement robust security measures to protect user data and AI interactions.
 
@@ -75,6 +87,18 @@
   - Encourage community contributions, feedback, and collaboration.
 - **Ongoing Support**:
   - Provide regular updates, maintenance, and support for users.
+
+## User Modes
+
+- **Minimal Mode**:
+  - Offers a clean, uncluttered interface.
+  - Ideal for users who prefer simplicity and minimal distractions.
+  - Hides advanced options and instructions unless explicitly requested.
+
+- **Informative Mode**:
+  - Displays detailed instructions and guidance upfront.
+  - Ideal for users who appreciate comprehensive information and assistance.
+  - Aligns with cultural preferences in Japan for thorough explanations.
 
 ## Accessibility Features
 
@@ -111,16 +135,11 @@
 
 ---
 
-## Contact and Support
-
-For more information or assistance, please contact [@shef4](https://github.com/shef4).
-
----
-
 ### **Additional Notes**
 
-- **Global Impact**: Symbol Cast OS aims to address global needs by providing technology that enhances productivity and creativity for all users.
-- **Sustainability**: By optimizing for older hardware, the OS contributes to environmental sustainability by extending the life of existing devices.
+- **Cultural Considerations**: By offering both Minimal and Informative modes, Symbol Cast OS respects diverse user preferences and cultural expectations, particularly in Japan.
+- **Global Impact**: Aiming to maximize productivity and creativity for all users, including the elderly and differently-abled.
+- **Sustainability**: Optimized for older hardware to extend device lifespans and reduce electronic waste.
 - **Future Goals**: Potential expansion into hardware development to further integrate software and hardware for an enhanced user experience.
 
 ---
@@ -168,4 +187,23 @@ For more information or assistance, please contact [@shef4](https://github.com/s
 
 ---
 
-By incorporating these elements, Symbol Cast OS aims to provide an inclusive and empowering operating system that meets the needs of a diverse user base while leveraging modern technologies and sustainable practices. Let me know if there's anything else you'd like me to include or adjust!
+### **Implementation of User Modes**
+
+- **Design Principles**:
+  - **Minimal Mode**: Prioritize essential features, reduce visual clutter, use simple icons, and hide advanced settings.
+  - **Informative Mode**: Provide detailed tooltips, step-by-step guides, comprehensive menus, and visible advanced options.
+
+- **Technical Approach**:
+  - Use a **mode-switching mechanism** within the UI that allows users to toggle between Minimal and Informative modes.
+  - **Configuration Settings**: Store user preferences so the OS remembers the selected mode across sessions.
+  - **Adaptive UI Components**: Design UI elements that adjust their level of detail based on the active mode.
+
+- **Accessibility Alignment**:
+  - Ensure both modes adhere to accessibility standards.
+  - Provide easy access to switch modes, including voice commands or gestures.
+
+---
+
+By integrating these considerations, Symbol Cast OS will be more culturally sensitive and user-friendly, offering an experience that appeals to a broader audience. The dual-mode approach enhances usability and adoption, particularly in markets like Japan, where users may appreciate more detailed guidance.
+
+Let me know if there's anything else you'd like me to include or if you have further adjustments!
