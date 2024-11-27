@@ -113,7 +113,7 @@
 
 ## Contact and Support
 
-For more information or assistance, please contact the development team at [email@example.com](mailto:email@example.com).
+For more information or assistance, please contact @shef4.
 
 ---
 
