@@ -113,7 +113,7 @@
 
 ## Contact and Support
 
-For more information or assistance, please contact (@shef4)[https://github.com/shef4].
+For more information or assistance, please contact [@shef4](https://github.com/shef4).
 
 ---
 
