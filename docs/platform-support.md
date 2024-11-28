@@ -1,5 +1,5 @@
 # Platform Support for Symbol Cast OS
-
+<!-- Information on supported platforms and hardware optimizations -->
 ## Overview
 Symbol Cast OS is a cross-platform operating system designed to support various devices, including phones, laptops/tablets, and VR headsets. The OS aims to maximize accessibility by providing both a minimalist and an informative user experience, while ensuring compatibility with new and older hardware. This document outlines the specific considerations and requirements for each platform.
 

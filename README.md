@@ -1,5 +1,5 @@
 # Symbol Cast OS
-
+<!-- Project overview, installation instructions, and usage guidelines -->
 **Symbol Cast OS** is an open-source, cross-platform operating system designed to empower users of all ages and abilities. It offers two user modes:
 
 - **Minimal Mode**: A clean and simple interface for users who prefer minimal distractions.

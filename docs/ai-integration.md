@@ -1,5 +1,5 @@
 # Integration of Third-Party AI Agents
-
+<!-- Instructions and details on integrating third-party AI agents -->
 Symbol Cast OS supports third-party AI agents to enhance productivity, creativity, and collaboration. This document outlines how AI agents integrate into the OS, their roles, and the technical infrastructure enabling their functionality.
 
 ---

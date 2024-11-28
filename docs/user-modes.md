@@ -1,5 +1,5 @@
 # User Modes in Symbol Cast OS
-
+<!-- Explanation of different user modes and their functionalities -->
 Symbol Cast OS offers two distinct user modes to cater to different user preferences and cultural expectations:
 
 1. **Minimal Mode**: A clean, simple interface designed for ease of use and reduced distractions.

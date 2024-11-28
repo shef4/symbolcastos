@@ -1,5 +1,5 @@
 # Symbol Cast Language Specification
-
+<!-- Detailed syntax and semantics of the Symbol Cast language -->
 Symbol Cast is a gesture-based programming language that allows users to create programs by drawing symbols. These symbols represent various constructs such as loops, functions, and conditionals. The language supports both visual programming (gesture/symbol-based) and traditional text-based syntax.
 
 ---

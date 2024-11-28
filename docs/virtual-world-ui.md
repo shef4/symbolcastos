@@ -1,5 +1,5 @@
 # Virtual World UI Design Principles
-
+<!-- Design principles for creating an immersive user experience -->
 **Version:** 1.0  
 **Last Updated:** [Date]
 

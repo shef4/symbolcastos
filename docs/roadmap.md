@@ -1,5 +1,5 @@
 # Symbol Cast OS Roadmap
-
+<!-- Project milestones, timelines, and future development plans -->
 This document outlines the development roadmap for Symbol Cast OS, including milestones and timelines for the project. The roadmap focuses on achieving the goals of creating a cross-platform operating system that integrates Symbol Cast's gesture-based language, supports diverse user needs, and operates on both advanced and older hardware.
 
 ---

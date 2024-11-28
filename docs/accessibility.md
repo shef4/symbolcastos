@@ -1,5 +1,5 @@
 # Accessibility Features and Guidelines
-
+<!-- Guidelines and implementation details for accessibility features -->
 Symbol Cast OS is designed with inclusivity and accessibility at its core, aiming to empower users of all ages and abilities. This document outlines the accessibility features of Symbol Cast OS and provides guidelines on how to utilize them effectively.
 
 ## Table of Contents
